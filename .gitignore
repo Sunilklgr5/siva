@@ -1,0 +1,11 @@
+persons = [{'Name':'Shiva','Gender':'M','Profession':'Doctor'},{'Name':'Sunil','Gender':'M','Profession':'Engineer'},{'Name':'Gopal','Gender':'M','Profession':'Homiyopathi'},{'Name':'Vijay','gender':'M','Profession':'Actor'}]
+
+for p in persons:
+    print(p['Name'])
+    if p['Profession'] == 'Doctor':
+        if p[['Name'[0]] == 'S':
+            print('Doctor S')
+             
+        else:  
+             print('Doctor')
+    
